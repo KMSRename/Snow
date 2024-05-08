@@ -17,8 +17,8 @@ async def start(client, message):
     user = message.from_user
     await db.add_user(client, message)
     button = InlineKeyboardMarkup([[
-        InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ', url='https://t.me/+qcIFCI0NT2g5ODhl'),
-        InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+Ul_owPNY0xQzOTRl')
+        InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ', url='https://t.me/+W4cB_0g7ZWU2NWM1'),
+        InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+J5zlO5boIu9mZGY1')
         ],[
         InlineKeyboardButton('ꜱᴇᴛᴛɪɴɢꜱ', callback_data='settings') 
         ],[
@@ -64,8 +64,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([[
-                InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/+qcIFCI0NT2g5ODhl'),
-                InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+Ul_owPNY0xQzOTRl')
+                InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/+W4cB_0g7ZWU2NWM1'),
+                InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+J5zlO5boIu9mZGY1')
                 ],[
                 InlineKeyboardButton('ꜱᴇᴛᴛɪɴɢꜱ', callback_data='settings') 
                 ],[
